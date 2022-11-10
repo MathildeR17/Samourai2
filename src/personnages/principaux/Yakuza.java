@@ -57,4 +57,9 @@ public class Yakuza extends Humain{
 		return getArgent();
 	}
 	
+	public void direBonjour() {
+		super.direBonjour();
+		parler("je suis fier de faire partie du clan " + getClan() + "!");
+	}
+	
 }
